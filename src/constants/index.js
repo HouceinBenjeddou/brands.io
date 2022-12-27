@@ -1,4 +1,4 @@
-export const navNlinks = [
+export const navLinks = [
   {
       title: "Brand.io",
       id: "brnad.io"
@@ -14,5 +14,9 @@ export const navNlinks = [
   {
       title: "Contact Us",
       id: "contactUs"
+  },
+  {
+      title: "Login",
+      id: "login"
   },
 ];

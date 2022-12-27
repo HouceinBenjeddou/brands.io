@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
-import logo  from "../../images/logo.png"
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import {React, useState} from 'react'
+import { navLinks } from '../../constants'
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false)
+  
   return (
-    <div className='w-full flex py-6 justify-between items-center navbar'>
-        <img src={logo} alt='logo'/>
-    </div>
+    <nav>
+      navbar
+    </nav>
   )
 }
 

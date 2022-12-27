@@ -3,8 +3,10 @@ import {BrandStory, Footer, HowItWorks, Investor, Navbar, Plans, Platform, Showo
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline"> 
+    <div>
+      <div className='flex py-6'>
       <Navbar />
+      </div>
       <Investor />
       <BrandStory />
       <Platform />
